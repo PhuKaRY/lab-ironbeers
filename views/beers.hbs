@@ -1,0 +1,10 @@
+{{#each allBeers}}
+  <a href='/singlebeer/{{this.id}}'>
+    <section class='beers-elements'>
+      <h1>{{this.name}}</h1>
+      <p>{{this.tagline}}</p>
+      <img src='{{this.image_url}}' alt='image_beers' />
+      <p>{{this.description}}</p>
+    </section>
+  </a>
+{{/each}}
